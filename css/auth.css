@@ -1,0 +1,43 @@
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: var(--card-dark);
+  padding: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: none;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--green);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.signup-text {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.signup-text a {
+  color: var(--green);
+  text-decoration: none;
+}

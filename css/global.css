@@ -1,0 +1,22 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Theme variables */
+:root {
+  --bg-dark: #0f172a;
+  --card-dark: #1e293b;
+  --green: #22c55e;
+  --text-light: #e5e7eb;
+  --text-muted: #9ca3af;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  min-height: 100vh;
+}
