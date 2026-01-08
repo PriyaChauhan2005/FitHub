@@ -47,3 +47,47 @@
   color: var(--text-muted);
   margin-bottom: 1.5rem;
 }
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  background-color: #0f172a;
+  border-radius: 6px;
+  padding: 0 10px;
+}
+
+.input-group input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-light);
+  width: 100%;
+  font-size: 0.95rem;
+  flex: 1;
+  padding: 10px 0;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  stroke: var(--text-muted);
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+
+.eye-icon {
+  width: 18px;
+  height: 18px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.eye-icon:hover {
+  color: var(--green);
+}
+
+
